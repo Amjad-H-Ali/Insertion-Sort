@@ -10,6 +10,7 @@ const insertionSort = (arr) => {
 		while (indxB4 >= 0) {
 			if (value < arr[indxB4]) {
 				arr[indxB4 + 1] = arr[indxB4];
+				arr[indxB4] = value;
 				indxB4 --;
 			}
 			
