@@ -8,10 +8,13 @@ const insertionSort = (arr) => {
 		let indxB4 = i - 1;
 
 		while (indxB4 >= 0) {
-			console.log(arr[indxB4]);
-			indxB4 --;
-		}
-	}
+			if (value < arr[indxB4]) {
+				
+				indxB4 --;
+			}
+			
+		};
+	};
 };
 
 insertionSort([9, 8, 7, 6, 5]);
