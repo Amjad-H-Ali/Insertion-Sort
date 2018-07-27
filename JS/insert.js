@@ -13,6 +13,8 @@ const insertionSort = (arr) => {
 				arr[indxB4] = value;
 				indxB4 --;
 			}
+
+			else { break; };
 			
 		};
 	};
