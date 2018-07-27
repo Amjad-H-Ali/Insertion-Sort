@@ -18,6 +18,7 @@ const insertionSort = (arr) => {
 			
 		};
 	};
+	return arr;
 };
 
-insertionSort([9, 8, 7, 6, 5]);
+console.log(insertionSort([9, 8, 7, 6, 5, 1, 1, 0, 7, 8, 33, 97, 6, 2]));
